@@ -1,0 +1,35 @@
+{
+    "name": "@quickearth/webpack-starter",
+    "private": true,
+    "version": "1.0.0",
+    "description": "QuickEarth的webpack脚手架",
+    "homepage": "http://qecloud.91weather.com",
+    "dependencies": {
+        "leaflet": "^1.9.4",
+        "@quickearth/core": "^3.0.4",
+        "@quickearth/leaflet": "^3.0.4",
+        "@quickearth/cesium": "^3.0.4"
+    },
+    "devDependencies": {
+        "@types/geojson": "^7946.0.7",
+        "@types/leaflet": "^1.7.1",
+        "clean-webpack-plugin": "^4.0.0",
+        "css-loader": "^6.8.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.3",
+        "mini-css-extract-plugin": "^2.7.6",
+        "source-map-loader": "^4.0.1",
+        "style-loader":"^3.3.3",
+        "ts-loader": "^9.4.4",
+        "typescript": "^5.1.3",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1",
+        "webpack-bundle-analyzer": "^4.9.0",
+        "terser": "^5.19.2"
+    },
+    "scripts": {
+        "start": "webpack serve --mode development --open",
+        "build": "webpack --mode production"
+    }
+}
