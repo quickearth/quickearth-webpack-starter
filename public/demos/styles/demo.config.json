@@ -148,7 +148,6 @@
     "style-china@dark": "demos/styles/theme-dark/china.feature.style.dark.json"
   },
   "jsonFiles": {
-    "mask-china": "demos/data/china.bounds.zip"
   },
   "rawFiles": {
   },
