@@ -151,12 +151,7 @@
     "mask-china": "demos/data/china.bounds.zip"
   },
   "rawFiles": {
-    "raw-rh": "demos/data/rhs.bin",
-    "wind-u500": "demos/data/u500.dat",
-    "wind-v500": "demos/data/v500.dat"
   },
   "texts": {
-    "source-u500": "public/demos/data/u500.dat",
-    "source-v500": "public/demos/data/v500.dat"
   }
 }
