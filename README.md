@@ -1,5 +1,5 @@
 
-> Webpack版本的starter项目见：[https://github.com/quickearth/quickearth-webpack-starter](https://github.com/quickearth/quickearth-webpack-starter)。
+> Vite版本的starter项目见：[https://github.com/quickearth/quickearth-vite-starter](https://github.com/quickearth/quickearth-vite-starter)。
 
 ### 使用脚手架
 
