@@ -78,7 +78,7 @@ const config = {
         static: {
             directory: __dirname
         },
-        hot: true,
+        // hot: true,
         compress: true,
         port: 8009,
         host: "0.0.0.0"
@@ -106,6 +106,24 @@ const config = {
             commonjs2: "mapbox-gl",
             amd: "mapbox-gl"
         },
+        "@quickearth/core":{
+            root: "QE",
+            commonjs: "@quickearth/core",
+            commonjs2: "@quickearth/core",
+            amd: "@quickearth/core"
+        },
+        "@quickearth/cesium":{
+            root: "QEC",
+            commonjs: "@quickearth/cesium",
+            commonjs2: "@quickearth/cesium",
+            amd: "@quickearth/cesium"
+        },
+        "@quickearth/leaflet":{
+            root: "QEL",
+            commonjs: "@quickearth/leaflet",
+            commonjs2: "@quickearth/leaflet",
+            amd: "@quickearth/leaflet"
+        }
     }
 };
 

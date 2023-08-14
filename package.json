@@ -6,9 +6,9 @@
     "homepage": "http://qecloud.91weather.com",
     "dependencies": {
         "leaflet": "^1.9.4",
-        "@quickearth/core": "^3.0.4",
-        "@quickearth/leaflet": "^3.0.4",
-        "@quickearth/cesium": "^3.0.4"
+        "@quickearth/core": "^3.0.5",
+        "@quickearth/leaflet": "^3.0.5",
+        "@quickearth/cesium": "^3.0.5"
     },
     "devDependencies": {
         "@types/geojson": "^7946.0.7",
