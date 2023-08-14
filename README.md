@@ -1,4 +1,6 @@
 
+> Webpack版本的starter项目见：[https://github.com/quickearth/quickearth-webpack-starter](https://github.com/quickearth/quickearth-webpack-starter)。
+
 ### 使用脚手架
 
 - 项目下载到本地
@@ -40,6 +42,20 @@ consts.workerPath="public/libs/workers"
 <!--发布版换成非Unminified版本-->
 <script src="public/libs/cesium/CesiumUnminified/Cesium.js"></script>
 ```
+
+> 如果使用三维的时候使用Typescript，那么还需要配置cesium的描述文件，可以在tsconfig.json中的compilerOptions中增加如下配置：
+
+```json
+"paths": {
+    "cesium*": [
+        "./public/libs/cesium/Cesium/Cesium.d.ts"
+    ]
+}
+```
+
+- 打包发布
+  
+执行```npm run build```，然后将根目录的public拷贝到dist目录一起发布即可。
 
 ### 本脚手架自带一个DEMO，效果如下
 

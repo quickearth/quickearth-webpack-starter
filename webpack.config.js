@@ -105,24 +105,6 @@ const config = {
             commonjs: "mapbox-gl",
             commonjs2: "mapbox-gl",
             amd: "mapbox-gl"
-        },
-        "@quickearth/core":{
-            root: "QE",
-            commonjs: "@quickearth/core",
-            commonjs2: "@quickearth/core",
-            amd: "@quickearth/core"
-        },
-        "@quickearth/cesium":{
-            root: "QEC",
-            commonjs: "@quickearth/cesium",
-            commonjs2: "@quickearth/cesium",
-            amd: "@quickearth/cesium"
-        },
-        "@quickearth/leaflet":{
-            root: "QEL",
-            commonjs: "@quickearth/leaflet",
-            commonjs2: "@quickearth/leaflet",
-            amd: "@quickearth/leaflet"
         }
     }
 };
