@@ -34,7 +34,7 @@
     "outDir": "dist",
     "paths": {
       "cesium*": [
-        "./public/libs/cesium/Cesium/Cesium.d.ts"
+        "./public/libs/cesium/Cesium.d.ts"
       ]
     }
   },
